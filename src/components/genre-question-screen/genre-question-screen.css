@@ -1,0 +1,58 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; 
+}
+.game_screen {
+    position: relative;
+    z-index: 1;
+    width: 440px;
+    text-align: center; 
+}
+.game_title {
+    margin: 0;
+    font-family: "Fira Sans", "Arial", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 33px;
+    color: #230d1a;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+} 
+.game_track {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px; 
+}
+.game_answer {
+    margin-left: 15px;
+    width: 100px;
+    height: 80px; 
+    display: flex;  
+}
+.game_check {
+    margin-left: 20px;
+    width: 57px;
+    height: 80px;
+    background: url('./img/icon-note-inactive.png');
+    cursor: pointer;
+}
+.game_input {
+    opacity: 0;
+}
+input[type="checkbox"]:checked + .game_check {
+    background-image: url("./img/icon-note-active.png"); 
+}
+.game_submit {
+    font-family: "Fira Sans", "Arial", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 30px;
+    padding: 5px 20px;
+    font-size: 24px; 
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.game_artist {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px; 
+}
+.artist {
+    position: relative;
+    width: 134px;
+    color: #230d1a;
+    text-align: center;
+    cursor: pointer; 
+}
+.artist_picture {
+    margin-bottom: 5px;
+    width: 134px;
+    height: 134px;
+    background-color: #f0eed5;
+    border: solid 5px #230d1a;
+    border-radius: 134px;
+    cursor: pointer; 
+}
+.artist:hover .artist_picture,
+.artist_input:focus + .artist_name .artist_picture {
+    border-color: #ff9749; 
+}
+.artist:active .artist_picture {
+    border-color: #f00000; 
+}

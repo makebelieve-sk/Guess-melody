@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AudioPlayer component AudioPlayer correctly renders after relaunch 1`] = `
+Array [
+  <button
+    className="track_button track_button-play"
+    disabled={true}
+    onClick={[Function]}
+    type="button"
+  />,
+  <div
+    className="track_status"
+  >
+    <audio />
+  </div>,
+]
+`;

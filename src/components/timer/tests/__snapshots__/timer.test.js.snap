@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timer component Timer correctly renders after relaunch 1`] = `
+<div
+  className="timer_value"
+>
+  <span
+    className="timer_mins"
+  >
+    05
+  </span>
+  <span
+    className="timer_dots"
+  >
+    :
+  </span>
+  <span
+    className="timer_secs"
+  >
+    00
+  </span>
+</div>
+`;

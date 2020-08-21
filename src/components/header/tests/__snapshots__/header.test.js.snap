@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component Header correctly renders after relaunch 1`] = `
+<header
+  className="game_header"
+>
+  <div
+    className="wrapper-logo"
+  >
+    <button
+      className="button-back"
+      onClick={[Function]}
+    />
+    <i
+      className="welcome_logo_header"
+      onClick={[Function]}
+    />
+  </div>
+  <div
+    className="timer_value"
+  >
+    <span
+      className="timer_mins"
+    >
+      05
+    </span>
+    <span
+      className="timer_dots"
+    >
+      :
+    </span>
+    <span
+      className="timer_secs"
+    >
+      00
+    </span>
+  </div>
+  <div
+    className="game_mistakes"
+  >
+    <div
+      className="wrong"
+    />
+    <div
+      className="wrong"
+    />
+    <div
+      className="wrong-active"
+    />
+  </div>
+</header>
+`;

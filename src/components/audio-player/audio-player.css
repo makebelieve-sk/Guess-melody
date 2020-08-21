@@ -1,0 +1,24 @@
+.track_button-play {
+    border: none;
+    width: 65px;
+    height: 80px;
+    background: url('./img/track-button-play.png') center no-repeat;
+}
+.track_button-pause {
+    border: none;
+    width: 65px;
+    height: 80px;
+    background: url('./img/track-button-pause.png') center no-repeat;
+}
+.track_status {
+    height: 80px;
+    width: 300px;
+    margin-left: 15px;
+    background: url('./img/player-background.png');
+}
+.track_button-play:hover {
+    cursor: pointer;
+}
+.track_button-pause:hover {
+    cursor: pointer;
+}

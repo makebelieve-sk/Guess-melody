@@ -1,0 +1,19 @@
+.timer_value {
+    color: #ff9749;
+    margin-right: 75px;
+    font-size: 20px;
+}
+.timer_mins, .timer_secs {
+    font-size: 24px;
+}
+.timer_dots-inactive {
+    color: black;
+    font-size: 20px;
+}
+.timer_dots-active {
+    color: #ff9749;
+    font-size: 20px;
+}
+.alarm {
+    color: red;
+}

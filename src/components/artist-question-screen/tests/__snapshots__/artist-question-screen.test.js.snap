@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArtistQuestionScreen component ArtistQuestionScreen correctly renderer with them prop 1`] = `
+<section
+  className="section-wrapper"
+>
+  <section
+    className="game_screen"
+  >
+    <h2
+      className="game_title"
+    >
+      Кто исполняет эту песню?
+    </h2>
+    <div
+      className="game_track"
+    />
+    <form
+      className="game_artist"
+    >
+      <div
+        className="artist"
+      >
+        <input
+          className="artist_input visually-hidden"
+          id="answer-1"
+          name="answer"
+          onClick={[Function]}
+          type="radio"
+          value="answer-1"
+        />
+        <label
+          className="artist_name"
+          htmlFor="answer-1"
+        >
+          <img
+            alt="John Snow"
+            className="artist_picture"
+            src="https://placehold.it/134x134"
+          />
+          John Snow
+        </label>
+      </div>
+      <div
+        className="artist"
+      >
+        <input
+          className="artist_input visually-hidden"
+          id="answer-2"
+          name="answer"
+          onClick={[Function]}
+          type="radio"
+          value="answer-2"
+        />
+        <label
+          className="artist_name"
+          htmlFor="answer-2"
+        >
+          <img
+            alt="Jack Daniels"
+            className="artist_picture"
+            src="https://placehold.it/134x134"
+          />
+          Jack Daniels
+        </label>
+      </div>
+      <div
+        className="artist"
+      >
+        <input
+          className="artist_input visually-hidden"
+          id="answer-3"
+          name="answer"
+          onClick={[Function]}
+          type="radio"
+          value="answer-3"
+        />
+        <label
+          className="artist_name"
+          htmlFor="answer-3"
+        >
+          <img
+            alt="Jim Beam"
+            className="artist_picture"
+            src="https://placehold.it/134x134"
+          />
+          Jim Beam
+        </label>
+      </div>
+    </form>
+  </section>
+</section>
+`;

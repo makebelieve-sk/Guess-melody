@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mistakes component Mistakes correctly renders after relaunch 1`] = `
+<div
+  className="game_mistakes"
+>
+  <div
+    className="wrong"
+  />
+  <div
+    className="wrong"
+  />
+  <div
+    className="wrong"
+  />
+</div>
+`;

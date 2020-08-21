@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScreenHello component ScreenHello correctly renders after relaunch 1`] = `
+<div
+  className="welcome"
+>
+  <i
+    className="welcome_logo"
+  />
+  <button
+    className="welcome_button"
+    onClick={[MockFunction]}
+  />
+  <h1
+    className="welcome_rules-title"
+  >
+    Правила игры
+  </h1>
+  <p
+    className="welcome_text"
+  >
+    Правила просты:
+  </p>
+  <ul
+    className="ul-list"
+  >
+    <li
+      className="welcome_rules-list"
+    >
+      За 
+      0
+       минут нужно ответить на все вопросы.
+    </li>
+    <li
+      className="welcome_rules-list"
+    >
+      Можно допустить 
+      0
+       ошибки.
+    </li>
+  </ul>
+  <p
+    className="welcome_text"
+  >
+    Удачи!
+  </p>
+</div>
+`;

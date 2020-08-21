@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoseScreen component LoseScreen correctly renders after relaunch 1`] = `
+<div
+  className="fail-tries"
+  id="fail-tries"
+>
+  <section
+    className="result"
+  >
+    <div
+      className="result__logo"
+    >
+      <img
+        alt="Угадай мелодию"
+        height="83"
+        src="img/melody-logo.png"
+        width="186"
+      />
+    </div>
+    <h2
+      className="result__title"
+    >
+      Какая жалость!
+    </h2>
+    <p
+      className="result__total result__total--fail"
+    >
+      У вас закончились все попытки. Ничего, повезёт в следующий раз!
+    </p>
+    <a
+      className="result__replay"
+      href="/"
+      onClick={[Function]}
+    >
+      Попробовать ещё раз
+    </a>
+  </section>
+</div>
+`;

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthorizationScreen component AuthorizationScreen correctly renders after relaunch 1`] = `
+<section
+  className="login"
+>
+  <div
+    className="login_logo"
+  >
+    <img
+      alt="Угадай мелодию"
+      height="83"
+      src="./img/melody-logo.png"
+      width="186"
+    />
+  </div>
+  <h2
+    className="login_title"
+  >
+    Необходима авторизация
+  </h2>
+  <p
+    className="login_text"
+  >
+    Представтесь!
+  </p>
+  <form
+    action=""
+    className="login_form"
+  >
+    <p
+      className="login_field"
+    >
+      <label
+        className="login_label"
+        htmlFor="name"
+      >
+        Логин
+      </label>
+      <input
+        className="login_input"
+        id="name"
+        name="name"
+        type="text"
+      />
+    </p>
+    <p
+      className="login_field"
+    >
+      <label
+        className="login_label"
+        htmlFor="password"
+      >
+        Пароль
+      </label>
+      <input
+        className="login_input"
+        id="password"
+        name="password"
+        type="text"
+      />
+      <span
+        className="login_error"
+      >
+        Неверный пароль
+      </span>
+    </p>
+    <a
+      href="#"
+    >
+      <button
+        className="login_button button"
+        type="submit"
+      >
+        Зарегистрироваться
+      </button>
+    </a>
+  </form>
+</section>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GenreQuestionScreen component GenreQuestionScreen correctly renders after relaunch 1`] = `
+<section
+  className="game"
+>
+  <section
+    className="game_screen"
+  >
+    <h2
+      className="game_title"
+    >
+      Выберите 
+       треки:
+    </h2>
+    <form
+      className="game_tracks"
+      onSubmit={[Function]}
+    >
+      <div
+        className="game_track"
+      />
+      <div
+        className="game_track"
+      />
+      <div
+        className="game_track"
+      />
+      <button
+        className="game_submit button"
+        type="submit"
+      >
+        Ответить
+      </button>
+    </form>
+  </section>
+</section>
+`;

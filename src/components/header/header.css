@@ -1,0 +1,38 @@
+.game_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; 
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wrapper-logo {
+    display: flex;
+}
+.button-back {
+    margin-top: 23px;
+    margin-right: 10px;
+    align-items: center;
+    width: 51px;
+    height: 40px;
+    border: none;
+    transform: rotate(180deg);
+    background: url('./img/button-back.png');
+    background-repeat: no-repeat;
+}
+.button-back:hover {
+    cursor: pointer;
+}
+.welcome_logo_header {
+    width: 177px;
+    height: 76px;
+    margin-top: 5px;
+    background: url('./img/melody-logo-ginger.png');
+    background-repeat: no-repeat;
+}
+
+.welcome_logo_header:hover {
+    cursor: pointer;
+}
